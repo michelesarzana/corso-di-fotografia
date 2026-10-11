@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Colore e file | Corso di fotografia</title>
+<meta name="description" content="Bilanciamento del bianco, RAW e JPEG, gamma dinamica e spazi colore.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+
+<header class="bar over-hero">
+  <a class="brand" href="../">Corso di fotografia</a>
+  <nav aria-label="Principale">
+    <a href="../#programma">Programma</a>
+    <a href="../corso-di-fotografia.pdf">PDF</a>
+  </nav>
+</header>
+
+<main>
+  <header class="mod-head">
+    <img src="../img/web/img_2051.jpg" alt="Sagoma di un albero di acacia contro un cielo rosa e viola" width="1600" height="1067">
+    <div class="hero-shade"></div>
+    <div class="in">
+      <p class="meta">Livello 1, Modulo 5</p>
+      <h1>Colore e file</h1>
+      <p class="lede">Bilanciamento del bianco, RAW e JPEG, gamma dinamica e spazi colore.</p>
+    </div>
+  </header>
+
+  <div class="lesson-layout">
+    <nav class="toc" aria-label="Lezioni del modulo">
+      <p>In questo modulo</p>
+      <ol>
+        <li><a href="#bilanciamento">Il bilanciamento del bianco</a></li>
+        <li><a href="#raw-jpeg">RAW o JPEG</a></li>
+        <li><a href="#gamma-dinamica">La gamma dinamica</a></li>
+        <li><a href="#spazi">Gli spazi colore</a></li>
+        <li><a href="#archivio">Archiviare senza perdere niente</a></li>
+        <li><a href="#esercizio">Esercizio</a></li>
+      </ol>
+      <p class="toc-back"><a href="../#programma">Tutto il programma</a></p>
+    </nav>
+
+    <article>
+<section id="bilanciamento">
+  <h2>Il bilanciamento del bianco</h2>
+  <p>La luce ha un colore. Quella di una candela è arancione, quella di un cielo coperto è azzurrina. Il nostro cervello lo corregge senza che ce ne accorgiamo. La fotocamera no: deve sapere che colore ha la luce per rendere bianco ciò che è bianco.</p>
+  <p>Il colore della luce si misura in gradi Kelvin. Numeri bassi, luce calda. Numeri alti, luce fredda.</p>
+  <table>
+    <thead><tr><th>Sorgente</th><th>Temperatura indicativa</th></tr></thead>
+    <tbody>
+      <tr><td>Candela</td><td>1800 K</td></tr>
+      <tr><td>Lampadina a incandescenza</td><td>2700-3200 K</td></tr>
+      <tr><td>Alba e tramonto</td><td>3000-4000 K</td></tr>
+      <tr><td>Sole a mezzogiorno</td><td>5000-5500 K</td></tr>
+      <tr><td>Cielo coperto</td><td>6500 K</td></tr>
+      <tr><td>Ombra con cielo sereno</td><td>7500 K e oltre</td></tr>
+    </tbody>
+  </table>
+  <p>Il bilanciamento automatico funziona bene quasi sempre. Sbaglia quando la luce ha un colore forte e voluto, come un tramonto: tende a neutralizzarlo e a togliere l'atmosfera.</p>
+  <div class="pair wide"><figure><img src="../img/web/golden-hour.jpg" alt="Lago glaciale e montagne con toni caldi e dorati" width="1600" height="1068" loading="lazy"><figcaption>Versione calda. La stessa scena sembra al tramonto.</figcaption></figure><figure><img src="../img/web/blue-dehaze.jpg" alt="Lago glaciale e montagne con toni freddi e azzurri" width="1600" height="1068" loading="lazy"><figcaption>Versione fredda. Ora sembra una mattina limpida e gelida.</figcaption></figure></div>
+  <p>Sono due elaborazioni dello stesso file. Il bilanciamento del bianco non è solo correzione. È uno strumento per decidere l'atmosfera.</p>
+</section>
+
+<section id="raw-jpeg">
+  <h2>RAW o JPEG</h2>
+  <p>Il JPEG è una foto finita. La fotocamera ha già deciso colori, contrasto e nitidezza e ha buttato via i dati che non servivano.</p>
+  <p>Il RAW è il dato grezzo del sensore. Non è ancora una foto: va sviluppato, come un negativo. In cambio conserva molte più informazioni.</p>
+  <table>
+    <thead><tr><th></th><th>JPEG</th><th>RAW</th></tr></thead>
+    <tbody>
+      <tr><td>Toni per canale</td><td>256 (8 bit)</td><td>Da 4096 a 16384 (12-14 bit)</td></tr>
+      <tr><td>Bilanciamento del bianco</td><td>Già applicato</td><td>Modificabile senza perdite</td></tr>
+      <tr><td>Recupero di luci e ombre</td><td>Limitato</td><td>Ampio</td></tr>
+      <tr><td>Peso del file</td><td>Leggero</td><td>Da 2 a 5 volte di più</td></tr>
+      <tr><td>Pronto da condividere</td><td>Sì</td><td>No, va sviluppato</td></tr>
+    </tbody>
+  </table>
+  <p>Il mio consiglio è RAW più JPEG. Il JPEG ti serve per guardare e condividere subito. Il RAW per le foto che vale la pena sviluppare con cura.</p>
+</section>
+
+<section id="gamma-dinamica">
+  <h2>La gamma dinamica</h2>
+  <p>La gamma dinamica è la differenza tra le zone più scure e quelle più chiare che un sensore riesce a registrare con dettaglio. Si misura in stop.</p>
+  <p>Un buon sensore moderno arriva a 12-14 stop. Sembra tanto, ma una scena con il sole e un'ombra profonda può superarlo. In quel caso devi scegliere cosa sacrificare, oppure usare le tecniche del modulo 16.</p>
+  <figure class="wide"><img src="../img/web/dsc04882.jpg" alt="Le Tre Cime incorniciate dall&#x27;apertura di una grotta buia" width="1600" height="1067" loading="lazy"><figcaption>Una scena al limite: l'interno della grotta e il cielo luminoso. Qui si espone per non bruciare il cielo e si recuperano le ombre della roccia dal RAW.<span class="exif">f/4, 1/1000 s, ISO 100, 17 mm, Sony A6700</span></figcaption></figure>
+  <p>Regola pratica: <strong>proteggi le alte luci</strong>. Un'ombra scura si schiarisce con un po' di rumore. Un cielo bianco puro è perso per sempre.</p>
+</section>
+
+<section id="spazi">
+  <h2>Gli spazi colore</h2>
+  <p>Uno spazio colore è l'insieme dei colori che un file o uno schermo può rappresentare. I più comuni sono tre.</p>
+  <ul>
+    <li><strong>sRGB.</strong> Lo standard del web e della maggior parte degli schermi. Il più piccolo, il più sicuro.</li>
+    <li><strong>Display P3.</strong> Più ampio, soprattutto nei rossi e nei verdi. È lo spazio degli schermi Apple e di molti telefoni.</li>
+    <li><strong>Adobe RGB.</strong> Ampio nei verdi e nei ciani. Utile per la stampa di qualità.</li>
+  </ul>
+  <p>Se scatti in RAW, lo spazio colore lo scegli quando esporti. Per pubblicare online esporta in sRGB. Così i colori appaiono uguali su qualsiasi schermo. Le foto di questo sito sono tutte in sRGB.</p>
+</section>
+
+<section id="archivio">
+  <h2>Archiviare senza perdere niente</h2>
+  <p>Un file che esiste in un solo posto non esiste. La regola più diffusa è il 3-2-1:</p>
+  <ul>
+    <li><strong>3 copie</strong> di ogni foto,</li>
+    <li>su <strong>2 supporti</strong> diversi, per esempio il disco del computer e un disco esterno,</li>
+    <li>di cui <strong>1 fuori casa</strong>, per esempio un servizio cloud.</li>
+  </ul>
+  <p>Svuota la scheda di memoria solo dopo aver controllato che le copie ci sono.</p>
+</section>
+
+<section id="esercizio">
+  <h2>Esercizio</h2>
+  <div class="exercise">
+    <p class="ui">Circa 30 minuti</p>
+    <h3>Il colore della luce</h3>
+    <ol>
+      <li>Fotografa lo stesso foglio bianco in tre luci diverse: al sole, all'ombra e sotto una lampadina di casa.</li>
+      <li>Scatta ogni volta in bilanciamento automatico e poi in luce diurna, circa 5500 K.</li>
+      <li>Confronta le sei foto. Nota come cambia il bianco e quale versione ti piace di più.</li>
+      <li>Se scatti in RAW, apri un file in un programma di sviluppo e prova a spostare la temperatura.</li>
+    </ol>
+  </div>
+</section>
+
+      <nav class="next" aria-label="Moduli vicini">
+        <a class="prev" href="obiettivi.html"><span class="meta">← Modulo 4</span>Obiettivi e focali</a>
+        <a class="nxt" href="luce.html"><span class="meta"> Modulo 6 →</span>Leggere la luce</a>
+      </nav>
+    </article>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="rights">Tutte le fotografie di questo sito sono di Michele Sarzana, che ne detiene tutti i diritti. Non possono essere copiate, scaricate, modificate o pubblicate altrove senza la sua autorizzazione scritta. I testi del corso sono di Michele Sarzana.</p>
+    <span>© 2026 Michele Sarzana</span>
+  </div>
+</footer>
+
+<script src="../assets/js/modulo.js"></script>
+</body>
+</html>

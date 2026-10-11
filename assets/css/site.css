@@ -257,3 +257,5 @@ html { scroll-behavior: smooth; }
 .next a .meta { font-weight: 400; }
 .next a.nxt { text-align: right; margin-left: auto; }
 .next a:hover { text-decoration: underline; }
+.toc .toc-back a { display: inline; padding: 0; }
+.toc .toc-back a::before { content: none; }
