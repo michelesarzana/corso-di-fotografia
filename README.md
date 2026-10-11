@@ -9,4 +9,4 @@ Sito statico pubblicato con GitHub Pages.
 - `img/web` e `img/thumb`: foto in WebP (1600 px e 600 px)
 - `data/exif.json`: dati di scatto delle foto
 
-Testi e foto © Michele Sarzana. Le foto non si possono riutilizzare senza permesso.
+Tutte le fotografie sono di Michele Sarzana, che ne detiene tutti i diritti. Non possono essere copiate, modificate o pubblicate senza la sua autorizzazione scritta.

@@ -162,7 +162,8 @@ input[type="range"]:active::-webkit-slider-thumb { transform: scale(1.18); }
 .strip img { aspect-ratio: 1; object-fit: cover; width: 100%; }
 
 footer { border-top: 1px solid var(--rule); padding: 2rem var(--gutter) 3rem; font: 400 .85rem/1.5 var(--sans); color: var(--slate); }
-footer .wrap { padding: 0; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+footer .wrap { padding: 0; display: flex; justify-content: space-between; align-items: end; flex-wrap: wrap; gap: 1rem; }
+footer .rights { max-width: 40rem; margin: 0; }
 
 /* ---------- pagina modulo ---------- */
 .mod-head { position: relative; min-height: 70svh; display: grid; color: #fff; background: #0d1113; overflow: hidden; }
