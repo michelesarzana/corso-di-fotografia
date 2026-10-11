@@ -1,0 +1,80 @@
+<section id="bilanciamento">
+  <h2>Il bilanciamento del bianco</h2>
+  <p>La luce ha un colore. Quella di una candela è arancione, quella di un cielo coperto è azzurrina. Il nostro cervello lo corregge senza che ce ne accorgiamo. La fotocamera no: deve sapere che colore ha la luce per rendere bianco ciò che è bianco.</p>
+  <p>Il colore della luce si misura in gradi Kelvin. Numeri bassi, luce calda. Numeri alti, luce fredda.</p>
+  <table>
+    <thead><tr><th>Sorgente</th><th>Temperatura indicativa</th></tr></thead>
+    <tbody>
+      <tr><td>Candela</td><td>1800 K</td></tr>
+      <tr><td>Lampadina a incandescenza</td><td>2700-3200 K</td></tr>
+      <tr><td>Alba e tramonto</td><td>3000-4000 K</td></tr>
+      <tr><td>Sole a mezzogiorno</td><td>5000-5500 K</td></tr>
+      <tr><td>Cielo coperto</td><td>6500 K</td></tr>
+      <tr><td>Ombra con cielo sereno</td><td>7500 K e oltre</td></tr>
+    </tbody>
+  </table>
+  <p>Il bilanciamento automatico funziona bene quasi sempre. Sbaglia quando la luce ha un colore forte e voluto, come un tramonto: tende a neutralizzarlo e a togliere l'atmosfera.</p>
+  [[pair golden-hour | Lago glaciale e montagne con toni caldi e dorati :: Versione calda. La stessa scena sembra al tramonto. || blue-dehaze | Lago glaciale e montagne con toni freddi e azzurri :: Versione fredda. Ora sembra una mattina limpida e gelida.]]
+  <p>Sono due elaborazioni dello stesso file. Il bilanciamento del bianco non è solo correzione. È uno strumento per decidere l'atmosfera.</p>
+</section>
+
+<section id="raw-jpeg">
+  <h2>RAW o JPEG</h2>
+  <p>Il JPEG è una foto finita. La fotocamera ha già deciso colori, contrasto e nitidezza e ha buttato via i dati che non servivano.</p>
+  <p>Il RAW è il dato grezzo del sensore. Non è ancora una foto: va sviluppato, come un negativo. In cambio conserva molte più informazioni.</p>
+  <table>
+    <thead><tr><th></th><th>JPEG</th><th>RAW</th></tr></thead>
+    <tbody>
+      <tr><td>Toni per canale</td><td>256 (8 bit)</td><td>Da 4096 a 16384 (12-14 bit)</td></tr>
+      <tr><td>Bilanciamento del bianco</td><td>Già applicato</td><td>Modificabile senza perdite</td></tr>
+      <tr><td>Recupero di luci e ombre</td><td>Limitato</td><td>Ampio</td></tr>
+      <tr><td>Peso del file</td><td>Leggero</td><td>Da 2 a 5 volte di più</td></tr>
+      <tr><td>Pronto da condividere</td><td>Sì</td><td>No, va sviluppato</td></tr>
+    </tbody>
+  </table>
+  <p>Il mio consiglio è RAW più JPEG. Il JPEG ti serve per guardare e condividere subito. Il RAW per le foto che vale la pena sviluppare con cura.</p>
+</section>
+
+<section id="gamma-dinamica">
+  <h2>La gamma dinamica</h2>
+  <p>La gamma dinamica è la differenza tra le zone più scure e quelle più chiare che un sensore riesce a registrare con dettaglio. Si misura in stop.</p>
+  <p>Un buon sensore moderno arriva a 12-14 stop. Sembra tanto, ma una scena con il sole e un'ombra profonda può superarlo. In quel caso devi scegliere cosa sacrificare, oppure usare le tecniche del modulo 16.</p>
+  [[fig dsc04882 | Le Tre Cime incorniciate dall'apertura di una grotta buia :: Una scena al limite: l'interno della grotta e il cielo luminoso. Qui si espone per non bruciare il cielo e si recuperano le ombre della roccia dal RAW. | wide]]
+  <p>Regola pratica: <strong>proteggi le alte luci</strong>. Un'ombra scura si schiarisce con un po' di rumore. Un cielo bianco puro è perso per sempre.</p>
+</section>
+
+<section id="spazi">
+  <h2>Gli spazi colore</h2>
+  <p>Uno spazio colore è l'insieme dei colori che un file o uno schermo può rappresentare. I più comuni sono tre.</p>
+  <ul>
+    <li><strong>sRGB.</strong> Lo standard del web e della maggior parte degli schermi. Il più piccolo, il più sicuro.</li>
+    <li><strong>Display P3.</strong> Più ampio, soprattutto nei rossi e nei verdi. È lo spazio degli schermi Apple e di molti telefoni.</li>
+    <li><strong>Adobe RGB.</strong> Ampio nei verdi e nei ciani. Utile per la stampa di qualità.</li>
+  </ul>
+  <p>Se scatti in RAW, lo spazio colore lo scegli quando esporti. Per pubblicare online esporta in sRGB. Così i colori appaiono uguali su qualsiasi schermo. Le foto di questo sito sono tutte in sRGB.</p>
+</section>
+
+<section id="archivio">
+  <h2>Archiviare senza perdere niente</h2>
+  <p>Un file che esiste in un solo posto non esiste. La regola più diffusa è il 3-2-1:</p>
+  <ul>
+    <li><strong>3 copie</strong> di ogni foto,</li>
+    <li>su <strong>2 supporti</strong> diversi, per esempio il disco del computer e un disco esterno,</li>
+    <li>di cui <strong>1 fuori casa</strong>, per esempio un servizio cloud.</li>
+  </ul>
+  <p>Svuota la scheda di memoria solo dopo aver controllato che le copie ci sono.</p>
+</section>
+
+<section id="esercizio">
+  <h2>Esercizio</h2>
+  <div class="exercise">
+    <p class="ui">Circa 30 minuti</p>
+    <h3>Il colore della luce</h3>
+    <ol>
+      <li>Fotografa lo stesso foglio bianco in tre luci diverse: al sole, all'ombra e sotto una lampadina di casa.</li>
+      <li>Scatta ogni volta in bilanciamento automatico e poi in luce diurna, circa 5500 K.</li>
+      <li>Confronta le sei foto. Nota come cambia il bianco e quale versione ti piace di più.</li>
+      <li>Se scatti in RAW, apri un file in un programma di sviluppo e prova a spostare la temperatura.</li>
+    </ol>
+  </div>
+</section>
